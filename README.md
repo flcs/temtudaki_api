@@ -75,6 +75,7 @@ Nest is [MIT licensed](LICENSE).
 
 ## FERNANDO
 
+```bash
 id 
 man apt-key 8
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo tee /etc/apt/trusted.gpg.d/docker.asc
@@ -107,4 +108,4 @@ docker exec -it meu-mysql mysql -u root -p
 docker restart meu-mysql
 docker ps
 history
-
+```
