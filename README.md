@@ -71,3 +71,40 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+## FERNANDO
+
+id 
+man apt-key 8
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo tee /etc/apt/trusted.gpg.d/docker.asc
+ls -la /etc/apt/trusted.gpg.d/ | grep docker
+sudo apt update
+sudo apt upgrade
+docker start meu-postgres
+docker start meu-pgadmin
+docker network ls
+docker ps
+docker ls
+docker container ls
+docker images
+docker images ls 
+docker images -a
+docker container -a
+docker container 
+docker container ls
+docker container ls -a
+docker stop 0ad0627bce41
+docker stop e865a38073fa
+docker ps
+
+// deveria ter ser: docker pull mysql/mysql-server
+docker pull mysql
+docker run -p 3306:3306 --name=meu-mysql -d mysql/mysql-server
+docker image ls
+docker logs meu-mysql 2>&1 | grep GENERATED
+docker exec -it meu-mysql mysql -u root -p
+docker restart meu-mysql
+docker ps
+history
+

@@ -8,7 +8,7 @@ export const databaseProviders = [
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: 'guarino',
+      password: 'secret',
       database: 'temtudaki',
       entities: [
           __dirname + '/../**/*.entity{.ts,.js}',
